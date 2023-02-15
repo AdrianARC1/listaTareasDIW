@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.abso {
+  position: absolute;
+  top: -5%;
+  left: -3%;
+}
+
+#divprin {
+  height: 100vh;
+}
+
+#h1 {
+  margin-left: 45px;
+  margin-bottom: 30px;
+}
+
+#fondoimg {
+  margin-bottom: 20px;
+  height: 250px;
+  background: #6ACCC0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  color: white;
+  font: bold;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  left: 142px;
+  top: 96px;
+  border-radius: 50%;
+  background: url(1194274-abstract-trippy-psychedelic-LSD-purple);
+}
+
+#divtareas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#tareas {
+  width: 343px;
+  height: 290px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+
+#cuadrados {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 30px;
+}
+
+p {
+  margin-left: 10px;
+}
+
+#daily {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+#plus {
+  width: 30px;
+  height: 30px;
+  background: #6ACCC0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+}
+
+.prueba {
+  box-sizing: border-box;
+  width: 23px;
+  height: 23px;
+  background: #D9D9D9;
+  border: 2px solid #000000;
+}
+
+p {
+  color: #000000;
+}
+
+.flex {
+  display: flex;
+}/*# sourceMappingURL=scss.css.map */
